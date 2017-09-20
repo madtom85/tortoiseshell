@@ -1,0 +1,67 @@
+/* Universal Styles */
+
+html,
+body{
+	font-family: Helvetica;
+	font-size: 18px;
+	line-height: 1.4;
+	width: 100%;
+	height: auto;
+}
+
+/* Logo, Navigation Menu, Banner and Header Sections */
+
+#site-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+
+.logo-header-nav{
+	display: flex;
+	background-color: cadetblue;
+	width: 960px;
+	height: auto;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 1rem;
+	border: 1px solid red;
+}
+
+.logo-header{
+	display: inline-flex;
+	flex-direction: row;
+	margin-left: 2rem;	
+}
+
+.logo-white{
+	display: flex;
+	align-items: center;
+}
+
+.logo-white img{
+	height: 1.5rem;
+}
+
+.header{
+	display: flex;
+	align-items: center;
+}
+
+.header p{
+	margin-left: 1rem;
+	color: #fff;
+}
+
+.nav-menu ul{
+	display: inline-flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+.nav-menu li{
+	color: #fff;
+	margin: 1rem 2rem;
+}
