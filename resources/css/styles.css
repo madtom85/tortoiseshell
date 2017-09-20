@@ -26,8 +26,7 @@ body{
 	height: auto;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 1rem;
-	border: 1px solid red;
+	margin: 1rem 0 10rem 0;
 }
 
 .logo-header{
@@ -64,4 +63,18 @@ body{
 .nav-menu li{
 	color: #fff;
 	margin: 1rem 2rem;
+}
+
+.banner{
+	background-color: #fff;
+	position: relative;
+	left: 12rem;
+}
+
+.banner p{
+	color: #000;
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 1.2;
+	margin: 1.5rem 5rem;
 }
