@@ -11,6 +11,17 @@ body{
 
 /* Logo, Navigation Menu, Banner and Header Sections */
 
+.logo-header-nav-banner{
+		background: url('../images/glasses-bg.png');
+		background-repeat: no-repeat;
+		height: 30rem;
+		width: 100%;
+		background-size: contain;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+
 #site-container{
 	display: flex;
 	justify-content: center;
@@ -32,7 +43,7 @@ body{
 .logo-header{
 	display: inline-flex;
 	flex-direction: row;
-	margin-left: 2rem;	
+	margin-left: 2rem;
 }
 
 .logo-white{
@@ -227,4 +238,27 @@ body{
 }
 
 
+/* Tablet View */
 
+@media only screen and (max-width: 1024px) {
+	.logo-header-nav{
+		margin: 0 0 5rem 0;
+		width: 100%;
+	}
+
+	.logo-header-nav-banner{
+		height: 22rem;
+		width: 100%;
+		background-size: cover;
+	}
+
+	.banner{
+		position: relative;
+		left: 15rem;
+	}
+
+	.banner p{
+		margin: 0.75rem 4rem;
+		font-size: 1.33rem;
+	}
+}
